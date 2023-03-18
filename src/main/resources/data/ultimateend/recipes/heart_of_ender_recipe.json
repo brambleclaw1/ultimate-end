@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "1": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "2": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "3": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "4": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "5": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "6": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "7": {
+      "item": "ultimateend:enderite_chunk"
+    },
+    "8": {
+      "item": "ultimateend:enderite_chunk"
+    }
+  },
+  "result": {
+    "item": "ultimateend:heart_of_ender",
+    "count": 1
+  }
+}

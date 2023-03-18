@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ultimateend:block/the_unknown_portal_ew"
+    },
+    "axis=x": {
+      "model": "ultimateend:block/the_unknown_portal_ns"
+    }
+  }
+}

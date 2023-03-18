@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimateend:blocks/enderiteore",
+    "up": "ultimateend:blocks/heartofender",
+    "north": "ultimateend:blocks/enderitechunk",
+    "east": "ultimateend:blocks/enderitechunk",
+    "south": "ultimateend:blocks/enderitechunk",
+    "west": "ultimateend:blocks/enderitechunk",
+    "particle": "ultimateend:blocks/enderiteore"
+  },
+  "render_type": "solid"
+}

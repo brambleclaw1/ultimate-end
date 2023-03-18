@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimateend:blocks/enderiteore",
+    "up": "ultimateend:blocks/enderiteore",
+    "north": "ultimateend:blocks/enderiteore",
+    "east": "ultimateend:blocks/enderiteore",
+    "south": "ultimateend:blocks/enderiteore",
+    "west": "ultimateend:blocks/enderiteore",
+    "particle": "ultimateend:blocks/enderiteore"
+  },
+  "render_type": "solid"
+}

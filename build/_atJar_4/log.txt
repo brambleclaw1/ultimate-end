@@ -1,0 +1,7 @@
+Java Launcher: /Applications/MCreator.app/Contents/MacOS/jdk/Contents/Home/bin/java
+Arguments: '--inJar, /Users/gavin/MCreatorWorkspaces/ultimateend/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0/forge-1.19.2-43.2.0-injected.jar, --outJar, /Users/gavin/MCreatorWorkspaces/ultimateend/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, /Users/gavin/MCreatorWorkspaces/ultimateend/src/main/resources/META-INF/accesstransformer.cfg, --atFile, /Users/gavin/MCreatorWorkspaces/ultimateend/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /Users/gavin/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/gavin/MCreatorWorkspaces/ultimateend/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

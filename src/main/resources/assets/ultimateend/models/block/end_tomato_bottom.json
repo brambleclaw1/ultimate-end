@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ultimateend:blocks/tomatovine",
+    "particle": "ultimateend:blocks/tomatovine"
+  },
+  "render_type": "cutout"
+}

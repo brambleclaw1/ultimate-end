@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "ultimateend:block/end_tomato"
+    },
+    "half=lower": {
+      "model": "ultimateend:block/end_tomato_bottom"
+    }
+  }
+}

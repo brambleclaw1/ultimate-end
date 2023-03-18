@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "1": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "2": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "3": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "4": {
+      "item": "ultimateend:heart_of_ender"
+    },
+    "5": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "6": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "7": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    },
+    "8": {
+      "item": "ultimateend:heart_of_ender_nugget"
+    }
+  },
+  "result": {
+    "item": "ultimateend:death_armor_chestplate",
+    "count": 1
+  }
+}

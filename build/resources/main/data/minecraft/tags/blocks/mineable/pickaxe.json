@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ultimateend:enderite_ore",
+    "ultimateend:enderite_chunk",
+    "ultimateend:heart_of_ender",
+    "ultimateend:dark_stone"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "end_midlands",
+    "end_highlands",
+    "end_barrens"
+  ],
+  "features": "ultimateend:mob_arena",
+  "step": "surface_structures"
+}

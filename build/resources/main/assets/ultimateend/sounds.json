@@ -1,0 +1,11 @@
+{
+  "ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ultimateend:minecraft_fallout_world_ambience",
+        "stream": false
+      }
+    ]
+  }
+}

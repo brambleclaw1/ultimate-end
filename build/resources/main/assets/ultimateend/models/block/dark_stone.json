@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimateend:blocks/darkstone",
+    "up": "ultimateend:blocks/darkstone",
+    "north": "ultimateend:blocks/darkstone",
+    "east": "ultimateend:blocks/darkstone",
+    "south": "ultimateend:blocks/darkstone",
+    "west": "ultimateend:blocks/darkstone",
+    "particle": "ultimateend:blocks/darkstone"
+  },
+  "render_type": "solid"
+}

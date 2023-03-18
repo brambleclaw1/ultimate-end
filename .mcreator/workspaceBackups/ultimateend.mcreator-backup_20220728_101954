@@ -1,0 +1,360 @@
+{
+  "mod_elements": [
+    {
+      "name": "AmethystTree",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tree"
+    },
+    {
+      "name": "EnderiteIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot"
+    },
+    {
+      "name": "EnderiteScrap",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_scrap"
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore"
+    },
+    {
+      "name": "EnderiteIngotRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot_recipe"
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword"
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe"
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe"
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe"
+    },
+    {
+      "name": "EnderitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe_recipe"
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe"
+    },
+    {
+      "name": "EnderiteChunk",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chunk"
+    },
+    {
+      "name": "EnderiteChunkRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chunk_recipe"
+    },
+    {
+      "name": "HeartOfEnder",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender"
+    },
+    {
+      "name": "HeartOfEnderRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender_recipe"
+    },
+    {
+      "name": "EndTomatoItem",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_tomato_item"
+    },
+    {
+      "name": "EndTomato",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_tomato"
+    },
+    {
+      "name": "EnderiteArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Entity303",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_303"
+    },
+    {
+      "name": "LargeAmethystTree",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_amethyst_tree"
+    },
+    {
+      "name": "EnderiteArrow",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_arrow"
+    },
+    {
+      "name": "EnderiteBow",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_bow"
+    },
+    {
+      "name": "EnderiteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_helmet_recipe"
+    },
+    {
+      "name": "EnderiteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chestplate_recipe"
+    },
+    {
+      "name": "EnderiteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_leggings_recipe"
+    },
+    {
+      "name": "EnderiteBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_boots_recipe"
+    },
+    {
+      "name": "HeartOfEnderNugget",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender_nugget"
+    },
+    {
+      "name": "DeathArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DeathChestplateRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_chestplate_recipe"
+    },
+    {
+      "name": "EnderiteBowRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_bow_recipe"
+    },
+    {
+      "name": "EnderiteArrowRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_arrow_recipe"
+    },
+    {
+      "name": "MobArena",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_arena"
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe"
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe"
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel"
+    },
+    {
+      "name": "DarkStone",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stone"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ultimateend.enderite_ingot": "Enderite Ingot",
+      "item.ultimateend.enderite_scrap": "Enderite Scrap",
+      "item.ultimateend.enderite_axe": "Enderite Axe",
+      "item.ultimateend.end_tomato_item": "End Tomato Item",
+      "block.ultimateend.enderite_chunk": "Enderite Chunk",
+      "item.ultimateend.enderite_armor_chestplate": "Enderite Chestplate",
+      "item.ultimateend.death_armor_leggings": "Death Armor Leggings",
+      "block.ultimateend.heart_of_ender": "Heart Of Ender",
+      "item.ultimateend.enderite_pickaxe": "Enderite Pickaxe",
+      "item.ultimateend.enderite_armor_boots": "Enderite Boots",
+      "entity.ultimateend.entity_303": "Entity 303",
+      "item.ultimateend.enderite_sword": "Enderite Sword",
+      "item.ultimateend.enderite_shovel": "Enderite Shovel",
+      "block.ultimateend.dark_stone": "Dark Stone",
+      "item.ultimateend.enderite_armor_helmet": "Enderite Helmet",
+      "item.ultimateend.death_armor_helmet": "Death Armor Helmet",
+      "item.ultimateend.enderite_bow": "Enderite Bow",
+      "block.ultimateend.enderite_ore": "Enderite Ore",
+      "item.ultimateend.entity_303_spawn_egg": "Entity 303 Spawn Egg",
+      "item.ultimateend.death_armor_chestplate": "Death Armor Body",
+      "item.ultimateend.enderite_arrow": "Enderite Arrow",
+      "item.ultimateend.death_armor_boots": "Death Armor Boots",
+      "block.ultimateend.end_tomato": "End Tomato",
+      "item.ultimateend.enderite_armor_leggings": "Enderite Leggings",
+      "item.ultimateend.heart_of_ender_nugget": "Heart Of Ender Nugget",
+      "item.ultimateend.enderite_hoe": "Enderite Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ultimateend",
+    "modName": "UltimateEnd",
+    "version": "1.0.0",
+    "description": "A revamp of the End. Still in progress.",
+    "author": "deadcreeper2413",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ultimateend",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

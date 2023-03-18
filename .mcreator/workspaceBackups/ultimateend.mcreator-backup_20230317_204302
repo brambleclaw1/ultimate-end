@@ -1,0 +1,632 @@
+{
+  "mod_elements": [
+    {
+      "name": "AmethystTree",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/forge/biome_modifier/amethyst_tree_biome_modifier.json",
+          "src/main/java/net/mcreator/ultimateend/world/features/AmethystTreeFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteIngotItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteScrap",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_scrap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteScrapItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_scrap.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/features/ores/EnderiteOreFeature.java",
+          "src/main/java/net/mcreator/ultimateend/block/EnderiteOreBlock.java",
+          "src/main/resources/assets/ultimateend/blockstates/enderite_ore.json",
+          "src/main/resources/assets/ultimateend/models/item/enderite_ore.json",
+          "src/main/resources/assets/ultimateend/models/block/enderite_ore.json",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/enderite_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteIngotRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/enderite_sword.json",
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EnderitePickaxeItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteAxeItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteChunk",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/blockstates/enderite_chunk.json",
+          "src/main/resources/assets/ultimateend/models/block/enderite_chunk.json",
+          "src/main/java/net/mcreator/ultimateend/block/EnderiteChunkBlock.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_chunk.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteChunkRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chunk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_chunk_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartOfEnder",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/blockstates/heart_of_ender.json",
+          "src/main/resources/assets/ultimateend/models/block/heart_of_ender.json",
+          "src/main/java/net/mcreator/ultimateend/block/HeartOfEnderBlock.java",
+          "src/main/resources/assets/ultimateend/models/item/heart_of_ender.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartOfEnderRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/heart_of_ender_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndTomatoItem",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_tomato_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EndTomatoItemItem.java",
+          "src/main/resources/assets/ultimateend/models/item/end_tomato_item.json"
+        ]
+      }
+    },
+    {
+      "name": "EndTomato",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_tomato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/block/EndTomatoBlock.java",
+          "src/main/java/net/mcreator/ultimateend/world/features/plants/EndTomatoFeature.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/end_tomato_biome_modifier.json",
+          "src/main/resources/assets/ultimateend/models/item/end_tomato.json",
+          "src/main/resources/assets/ultimateend/models/block/end_tomato_bottom.json",
+          "src/main/resources/assets/ultimateend/blockstates/end_tomato.json",
+          "src/main/resources/assets/ultimateend/models/block/end_tomato.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/enderite_armor_helmet.json",
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteArmorItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_armor_boots.json",
+          "src/main/resources/assets/ultimateend/models/item/enderite_armor_leggings.json",
+          "src/main/resources/assets/ultimateend/models/item/enderite_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Entity303",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_303",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/client/renderer/Entity303Renderer.java",
+          "src/main/java/net/mcreator/ultimateend/entity/Entity303Entity.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/entity_303_biome_modifier.json",
+          "src/main/resources/assets/ultimateend/models/item/entity_303_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "LargeAmethystTree",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_amethyst_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/features/LargeAmethystTreeFeature.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/large_amethyst_tree_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteArrow",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/enderite_arrow.json",
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteArrowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBow",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/enderite_bow.json",
+          "src/main/java/net/mcreator/ultimateend/entity/EnderiteBowEntity.java",
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeartOfEnderNugget",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_ender_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/HeartOfEnderNuggetItem.java",
+          "src/main/resources/assets/ultimateend/models/item/heart_of_ender_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/death_armor_leggings.json",
+          "src/main/resources/assets/ultimateend/models/item/death_armor_helmet.json",
+          "src/main/resources/assets/ultimateend/models/item/death_armor_chestplate.json",
+          "src/main/resources/assets/ultimateend/models/item/death_armor_boots.json",
+          "src/main/java/net/mcreator/ultimateend/item/DeathArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathChestplateRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/death_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBowRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_bow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteArrowRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_arrow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_arrow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MobArena",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_arena",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/features/MobArenaFeature.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/mob_arena_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteHoeItem.java",
+          "src/main/resources/assets/ultimateend/models/item/enderite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ultimateend/recipes/enderite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ultimateend/models/item/enderite_shovel.json",
+          "src/main/java/net/mcreator/ultimateend/item/EnderiteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DarkStone",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/features/ores/DarkStoneFeature.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/dark_stone_biome_modifier.json",
+          "src/main/resources/assets/ultimateend/models/item/dark_stone.json",
+          "src/main/java/net/mcreator/ultimateend/block/DarkStoneBlock.java",
+          "src/main/resources/assets/ultimateend/blockstates/dark_stone.json",
+          "src/main/resources/assets/ultimateend/models/block/dark_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "EndCabin",
+      "type": "structure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_cabin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/features/EndCabinFeature.java",
+          "src/main/resources/data/ultimateend/forge/biome_modifier/end_cabin_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TheUnknown",
+      "type": "dimension",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_unknown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultimateend/world/teleporter/TheUnknownTeleporter.java",
+          "src/main/resources/assets/ultimateend/models/block/the_unknown_portal_ns.json",
+          "src/main/resources/assets/ultimateend/models/item/the_unknown.json",
+          "src/main/java/net/mcreator/ultimateend/world/dimension/TheUnknownDimension.java",
+          "src/main/resources/assets/ultimateend/blockstates/the_unknown_portal.json",
+          "src/main/java/net/mcreator/ultimateend/item/TheUnknownItem.java",
+          "src/main/resources/data/ultimateend/dimension_type/the_unknown.json",
+          "src/main/java/net/mcreator/ultimateend/block/TheUnknownPortalBlock.java",
+          "src/main/resources/data/ultimateend/dimension/the_unknown.json",
+          "src/main/resources/assets/ultimateend/models/block/the_unknown_portal_ew.json",
+          "src/main/java/net/mcreator/ultimateend/world/teleporter/TheUnknownPortalShape.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ambient",
+      "files": [
+        "minecraft_fallout_world_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ultimateend.enderite_ingot": "Enderite Ingot",
+      "item.ultimateend.enderite_scrap": "Enderite Scrap",
+      "item.ultimateend.enderite_axe": "Enderite Axe",
+      "item.ultimateend.end_tomato_item": "End Tomato Item",
+      "block.ultimateend.enderite_chunk": "Enderite Chunk",
+      "item.ultimateend.enderite_armor_chestplate": "Enderite Chestplate",
+      "item.ultimateend.death_armor_leggings": "Death Armor Leggings",
+      "block.ultimateend.heart_of_ender": "Heart Of Ender",
+      "item.ultimateend.enderite_pickaxe": "Enderite Pickaxe",
+      "item.ultimateend.enderite_armor_boots": "Enderite Boots",
+      "entity.ultimateend.entity_303": "Entity 303",
+      "item.ultimateend.enderite_sword": "Enderite Sword",
+      "item.ultimateend.enderite_shovel": "Enderite Shovel",
+      "block.ultimateend.dark_stone": "Dark Stone",
+      "item.ultimateend.enderite_armor_helmet": "Enderite Helmet",
+      "item.ultimateend.death_armor_helmet": "Death Armor Helmet",
+      "subtitles.ambient": "",
+      "item.ultimateend.enderite_bow": "Enderite Bow",
+      "block.ultimateend.enderite_ore": "Enderite Ore",
+      "item.ultimateend.the_unknown": "nothing...",
+      "item.ultimateend.entity_303_spawn_egg": "Entity 303 Spawn Egg",
+      "item.ultimateend.death_armor_chestplate": "Death Armor Body",
+      "item.ultimateend.enderite_arrow": "Enderite Arrow",
+      "item.ultimateend.death_armor_boots": "Death Armor Boots",
+      "block.ultimateend.end_tomato": "End Tomato",
+      "item.ultimateend.enderite_armor_leggings": "Enderite Leggings",
+      "item.ultimateend.heart_of_ender_nugget": "Heart Of Ender Nugget",
+      "item.ultimateend.enderite_hoe": "Enderite Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ultimateend",
+    "modName": "UltimateEnd",
+    "version": "1.0.0",
+    "description": "A revamp of the End. Still in progress.",
+    "author": "gh5674",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ultimateend",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "3 5",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "ultimateend:enderite_scrap"
+    },
+    "1": {
+      "item": "ultimateend:enderite_ingot"
+    },
+    "3": {
+      "item": "ultimateend:enderite_scrap"
+    },
+    "5": {
+      "item": "ultimateend:enderite_ingot"
+    },
+    "6": {
+      "item": "ultimateend:enderite_scrap"
+    },
+    "7": {
+      "item": "ultimateend:enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "ultimateend:enderite_bow",
+    "count": 1
+  }
+}
